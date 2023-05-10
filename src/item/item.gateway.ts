@@ -9,7 +9,7 @@ import { Socket } from 'socket.io';
 let fanValue = false;
 let lightValue = false;
 
-@WebSocketGateway()
+@WebSocketGateway({ cors: true })
 export class ItemGateway {
   @SubscribeMessage('updateItem')
   handleItemUpdate(
