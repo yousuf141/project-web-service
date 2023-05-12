@@ -3,6 +3,10 @@ this project was created by Muhammad Yousuf Ali, 18044950 for my final year proj
 ## description
 This is the server for my final year project, the service it provides is that it sends and receives https requests from the website and mobile app and sends them to the raspberry pi. it also keeps any client side device synced and updates them with any changes made. 
 
+| Env Variable   | Description                                                                 | Example               |
+|----------------|-----------------------------------------------------------------------------|-----------------------|
+| Port           | you need to set the port the web service will listen for websocket requests | 3000                  |
+
 ## Installation
 
 ```bash
@@ -35,16 +39,3 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
